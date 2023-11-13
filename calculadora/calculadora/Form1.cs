@@ -16,5 +16,20 @@ namespace calculadora
         {
             InitializeComponent();
         }
+
+        private void agregarNumero (string numero)
+        {
+            if (txtResultado.Text == "0") {
+                txtResultado.Text = "";
+
+                txtResultado.Text += numero;
+            }
+        }
+
+        private void btnCero_Click(object sender, EventArgs e)
+        {
+            var boton
+            agregarNumero()
+        }
     }
 }
